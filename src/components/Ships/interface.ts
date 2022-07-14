@@ -1,11 +1,10 @@
+import { IMission } from '../globalInterface';
+
 export interface IShip {
   name: string;
   image: string;
   model: string;
-  missions: {
-    flight: string;
-    name: string;
-  }[];
+  missions: IMission[];
 }
 
 export interface IShipData {

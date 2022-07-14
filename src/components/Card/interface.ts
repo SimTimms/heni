@@ -1,7 +1,4 @@
-export interface IMission {
-  flight: string;
-  name: string;
-}
+import { IMission } from '../globalInterface';
 
 export interface ICardProps {
   shipName: string;
