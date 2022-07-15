@@ -1,5 +1,6 @@
 import { CardStyled, ShipImgStyled, ShipNameStyled } from './styles';
-import { ICardProps, IMission } from './interface';
+import { ICardProps } from './interface';
+import { IMission } from '../globalInterface';
 import { ColumnStyled, RowStyled } from '../globalStyles';
 
 export default function Card({ shipName, img, model, missions }: ICardProps) {
